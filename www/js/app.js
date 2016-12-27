@@ -40,6 +40,24 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   // Each tab has its own nav history stack:
 
+  .state('register-first', {
+    url: '/register-first',
+    templateUrl: 'templates/register-first.html',
+    controller: 'ChatsCtrl'
+  })
+
+  .state('register-second', {
+    url: '/register-second',
+    templateUrl: 'templates/register-second.html',
+    controller: 'ChatsCtrl'
+  })
+
+  .state('register-third', {
+    url: '/register-third',
+    templateUrl: 'templates/register-third.html',
+    controller: 'ChatsCtrl'
+  })
+
 
   .state('register-success', {
     url: '/register-success',
