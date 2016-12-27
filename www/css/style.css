@@ -1,0 +1,239 @@
+/* Empty. Add your own CSS if you like */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, fieldset, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video,button,select {
+	font-family: Microsoft YaHei;
+}
+
+.has-header {
+  top: 42px;
+}
+
+.has-subheader {
+  top: 86px;
+}
+
+#container{
+  height: 100%;
+  width: 100%;
+}
+ 
+.AMapArea{
+  height: 100%!important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.overview-grid {
+	position: absolute;
+	top:0;
+	background-color:  #33cd5f;
+	color: #fff;
+}
+
+.overview-grid h2 {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+.overview-grid p {
+	text-align: center;
+	font-size: 18px;
+	color: #ffee58;
+	margin-bottom: 0;
+}
+
+
+.bar.bar-stable .title {
+	color: #ffffff;
+	height: 47px;
+}
+
+
+@media not all, (-webkit-min-device-pixel-ratio: 1.5), not all, (min-resolution: 144dpi), (min-resolution: 1.5dppx){
+	.tabs {
+		background-color: #ffffff;
+	}
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+	color: #33cd5f;
+}
+
+.item-input-inset{
+	background-color: #33cd5f;
+}
+
+.item-input-wrapper{
+	background: #ffffff;
+}
+
+.bar.item-input-inset .item-input-wrapper input {
+	font-family: Microsoft YaHei;
+}
+
+.placeholder-icon:first-child{
+	font-size: 16px;
+}
+
+.bar .button.button-clear .icon:before, .bar .button.button-clear.icon:before, .bar .button.button-clear.icon-left:before, .bar .button.button-clear.icon-right:before, .bar button.button-clear .icon:before, .bar button.button-clear.icon:before, .bar button.button-clear.icon-left:before, .bar button.button-clear.icon-right:before{
+	font-size: 30px;
+}
+
+.item h2{
+	margin-bottom: 10px;
+}
+
+.tabs {
+	background-image: linear-gradient(0deg, #dddddd, #dddddd 50%, transparent 50%);
+}
+
+.tab-item .icon {
+	font-size: 30px;
+}
+
+
+.button.button-positive.active,.button.button-positive.activated {
+	border: 0px;
+}
+
+.button-clear.active,.button-clear.activated {
+	color: #35b558;
+}
+
+
+.input-label {
+	width: 10%;
+	font-size: 20px;
+	padding: 7px 16px 7px 0px;
+	color: #9e9e9e;
+}
+
+.login-button{
+	margin-left: 10%;
+	margin-bottom: 0px;
+	margin-top: 10%;
+}
+
+button.button-block, button.button-full, .button-full > button.button, input.button.button-block {
+	width: 80%;
+}
+
+.bar .title{
+	font-size: 16px;
+}
+
+.bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	bottom: 5px;
+}
+
+.item-input textarea{
+	height: 60px;
+}
+
+.report-content{
+	position: relative;
+	top: 10%;
+}
+
+.item-input-report{
+	margin-bottom: 3%;
+}
+
+.report-content p{
+	font-size: 16px;
+	margin-left:4%;
+	margin-right: 5%;
+	/*color: #666666;*/
+}
+
+.report-content a{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+
+.button.button-block, .button.button-full {
+	margin-top: 20px;
+}
+
+.item-select select{
+	left: 0px;
+	direction:ltr;
+	width: 100%;
+	color: #9e9e9e;
+}
+
+a{
+	text-decoration: none;
+}
+
+.account-detail-icon{
+	color: #666666;
+	width: 26px;
+}
+
+
+.bar .button.button-icon .icon:before, .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before, .bar button.button-icon .icon:before, .bar button.button-icon:before, .bar button.button-icon.icon-left:before, .bar button.button-icon.icon-right:before {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.logo{
+	width: 100%;
+	padding: 10%;
+	margin-top:15%;
+	padding-bottom: 0px;
+	margin-bottom: 10%;
+}
+
+.login-background-img{
+	height: 100%;
+	background-image: url("/img/login-background2.png");
+	background-repeat: no-repeat;
+}
+
+.login-frame{
+	/*height: 57px;*/
+	border: 0px ;
+	background-color: rgba(0,0,0,.3);
+}
+
+.ion-person:before{
+	font-size: 20px;
+	color: #bdbdbd;
+	margin-right: 10%;
+	margin-left: 2%;
+}
+
+.ion-locked:before{
+	font-size: 20px;
+	color: #bdbdbd;
+	margin-right: 10%;
+	margin-left: 2%;
+}
+
+.login-frame input{
+	color: #ffffff;
+}
+
+.ion-card:before{
+	color: #ffffff;
+	font-size: 30px;
+	position: absolute;top: 105%;right: 10%;
+}
+
+.back-text{
+	font-size: 16px;
+}
+
+
+.item-icon-left .icon, .item-icon-right .icon {
+	font-size: 28px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	padding-top: 0px;
+}
